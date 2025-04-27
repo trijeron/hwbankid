@@ -3,8 +3,7 @@ package cz.ithonza.hwbankid.controler;
 /**
  * Controller pro dva endpointy. Vlastne jsou 3. Bohuzel v zadani neni jak ma vypadat vysledek jednou to vracim jako bigdecimal a jednou jako objekt s detaily.
  * Vetsinou ty jednoduché endpointy se pak předělají na ty objektové.
- *
- * Nemám to pod swaggerem. Přidal bych jednu dependenci a vyhodil to ze security
+  * Nemám to pod swaggerem. Přidal bych jednu dependenci a vyhodil to ze security
  */
 
 import cz.ithonza.hwbankid.model.DifferenceRate;

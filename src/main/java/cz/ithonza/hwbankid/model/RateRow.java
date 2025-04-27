@@ -15,7 +15,6 @@ public class RateRow {
     private BigDecimal rateFromOtherSource;
     private Date dateFromOtherSource;
 
-    private String baseCurrecnyCode;
     private BigDecimal baseRateForCZK;
 
     public String getCurrency() {
@@ -81,14 +80,6 @@ public class RateRow {
         return this;
     }
 
-    public String getBaseCurrecnyCode() {
-        return baseCurrecnyCode;
-    }
-
-    public RateRow setBaseCurrecnyCode(String baseCurrecnyCode) {
-        this.baseCurrecnyCode = baseCurrecnyCode;
-        return this;
-    }
 
     public BigDecimal getBaseRateForCZK() {
         return baseRateForCZK;

@@ -32,7 +32,7 @@ public class SyncService {
     @Value("${currency.rounding:10}")
     private int roundingScale;
 
-    private Logger logger = LoggerFactory.getLogger(this.getClass());
+    private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
     private final DataService dataService;
 
